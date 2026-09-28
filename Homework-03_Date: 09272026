@@ -1,0 +1,12 @@
+first_name = input("Enter first name: ")
+last_name = input("Enter last name: ")
+
+nameList = [first_name, last_name]
+
+initialsString = first_name[0] + last_name[0]
+
+average = (len(first_name) + len(last_name))/len(nameList)
+
+print("List:", nameList)
+print("Initials:", initialsString)
+print("Average length:", average)
